@@ -1,0 +1,72 @@
+#landing{
+     position: relative;
+     min-height: 100dvh;
+     overflow-x: hidden;
+}
+
+.hero-section{
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+}
+
+.section-slider.before{
+      width: 100%;
+      height: 100%;
+      background: rgb(255, 250, 252);
+      padding-top: 100px;
+     
+}
+.section-slider-content{
+    height: 100%;
+    position: relative;
+}
+.section-slider-content h1{
+        font-size: 235px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: -20px;
+        font-family: var(--bold-font);
+}
+
+.bottom-slider-texts{
+      position: absolute;
+      left: 5%;
+      bottom: 10%;
+      width: 60%;
+}
+.bottom-slider-texts h2{
+      font-family: var(--regular-font);
+      font-size: 45px;
+      font-weight: 600;
+}
+.section-slider.after {
+     background: rgb(255, 221, 221);
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     overflow: hidden;
+     top: 0;
+     transform: translate(-100%, 0px);
+     -webkit-transform: translate(-100%, 0px);
+     -moz-transform: translate(-100%, 0px);
+     -ms-transform: translate(-100%, 0px);
+     -o-transform: translate(-100%, 0px);
+}
+
+.section-slider.after img{
+      transform: translate(100%, 0);
+      -webkit-transform: translate(100%, 0);
+      -moz-transform: translate(100%, 0);
+      -ms-transform: translate(100%, 0);
+      -o-transform: translate(100%, 0);
+}
+
+
+
+  .about-section{
+        height: 250vh;
+        background: rgb(225, 255, 225);
+  }
